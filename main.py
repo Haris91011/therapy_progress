@@ -11,7 +11,7 @@ st.markdown("""
         text-align: center;
     }
     </style>
-    <div class="title">Therapy Progress Tracking</div>
+    <div class="title">Therapy Progress Application</div>
 """, unsafe_allow_html=True)
 st.markdown("""
     <div style="text-align: center">
@@ -44,6 +44,6 @@ if uploaded_files:
             else:
                 st.error(f"Error: {response.status_code}, {response.text}")
         except Exception as e:
-            st.error(f"An error occurred: {e}")
+            st.error(f"An error occurred : {e}")
 
 

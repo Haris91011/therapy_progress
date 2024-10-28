@@ -71,7 +71,7 @@ To run the application in a Docker container, use this command:
 docker run -d -p 8282:8282 --name container_name fastapi-app
 ```
 
-This command will start the container, and the FastAPI app will be accessible at `http://localhost:8000`.
+This command will start the container, and the FastAPI app will be accessible at `http://localhost:8282`.
 
 
 

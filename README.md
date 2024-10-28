@@ -30,7 +30,7 @@ Activate the environment:
 conda activate streamlit-env
 ```
 
-### 3. Install Dependencies
+### 3. Install Dependencies for the application to work
 
 To install the required packages, run the following command after navigating to the project directory:
 
