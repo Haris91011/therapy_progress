@@ -10,13 +10,13 @@ load_dotenv()
 
 def generate_unique_key(existing_keys):
     while True:
-        key = random.randint(100, 999)  # Generate a random number between 100 and 999
+        key = random.randint(100, 999)  # generate a random no.  between 100 and 999
         if key not in existing_keys:
             return key
         
 
 
-
+# Chain to reraank the session summaries
 def ranker_chain(content):
     try:
         prompt_str="""     
@@ -38,7 +38,7 @@ def ranker_chain(content):
     except Exception as e:
         raise Exception(str(e))
     
-
+# progress generation chain
 def progress_genertaion_chain(content):
     try:
         prompt_str="""   
